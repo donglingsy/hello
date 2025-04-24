@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.10.0)
+project(demo VERSION 0.1.0 LANGUAGES C CXX)
+include_directories(/home/sy/work/test/include)
+set(OpenCV_DIR /usr/include/opencv4)
+find_package(OpenCV REQUIRED)
+add_executable(demo src/main.cpp src/add.cpp)
+include_directories(${OpenCV_INCLUDE_DIRS})
+target_link_libraries(demo ${OpenCV_LIBS})

@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/sy/work/test/build",
+  "command": "/usr/bin/c++  -I/home/sy/work/test/include -isystem /usr/include/opencv4 -g -o CMakeFiles/demo.dir/src/main.cpp.o -c /home/sy/work/test/src/main.cpp",
+  "file": "/home/sy/work/test/src/main.cpp",
+  "output": "CMakeFiles/demo.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/sy/work/test/build",
+  "command": "/usr/bin/c++  -I/home/sy/work/test/include -isystem /usr/include/opencv4 -g -o CMakeFiles/demo.dir/src/add.cpp.o -c /home/sy/work/test/src/add.cpp",
+  "file": "/home/sy/work/test/src/add.cpp",
+  "output": "CMakeFiles/demo.dir/src/add.cpp.o"
+}
+]
